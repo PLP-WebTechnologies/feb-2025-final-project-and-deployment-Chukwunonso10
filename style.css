@@ -32,7 +32,7 @@
     border-bottom: 2px solid #fff;
   }
   .hero {
-    /* background: url('../images/hero.jpg') center/cover no-repeat; */
+    background: url('../images/hero.jpg') center/cover no-repeat;
     color: rgb(62, 56, 56);
     text-align: center;
     padding: 5rem 2rem;
