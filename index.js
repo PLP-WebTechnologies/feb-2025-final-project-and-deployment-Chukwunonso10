@@ -7,7 +7,7 @@ if (sliderImage) {
   setInterval(() => {
     index = (index + 1) % images.length;
     sliderImage.src = "images/" + images[index];
-  }, 5000);
+  }, 3000);
 }
 
 // Form Validation
