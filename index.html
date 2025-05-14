@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Explore my world of creativity and code.</p>
+  </section>
+
+  <section class="slider">
+    <img src="images/hero.jpg" id="slider-image" alt="Slider Image" width="400px" height="200px">
+  </section>
+
+  <section class="about">
+    <h2>About Me</h2>
+    
+        <p>Hello! I'm a passionate <strong>software developer</strong> with a background in both creativity and logic. I studied at <strong>Nnamdi Azikiwe University, Awka</strong>, where I gained a solid foundation in problem-solving and engineering principles.</p>
+      
+        <p>I specialize in building responsive web applications using modern technologies like HTML5, CSS3, JavaScript, and APIs. My goal is to create user-friendly digital experiences that are both functional and visually appealing.</p>
+      
+        <p>Beyond coding, I enjoy learning new tools, collaborating on tech projects, and helping others grow in the tech space. Whether it's frontend design or backend logic, I’m always excited to take on new challenges and contribute meaningfully to innovative solutions.</p>
+      
+        <p>Let’s build something great together!</p>
+      </section>
+      
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" id="name" required />
+      <input type="email" placeholder="Your Email" id="email" required />
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button class="btn" type="submit">Send</button>
+    </form>
+    <p id="feedback"></p>
+  </section>
+  <footer>
+    <p>&copy; copyright 2025 My PLP Portfolio</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
