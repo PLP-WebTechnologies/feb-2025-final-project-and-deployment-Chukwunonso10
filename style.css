@@ -33,7 +33,7 @@
   }
   .hero {
     /* background: url('../images/hero.jpg') center/cover no-repeat; */
-    background-image: url('images/nony.jpeg');
+    background-image: url('images/nony.jpeg') center/cover no-repeat;
     color: rgb(62, 56, 56);
     text-align: center;
     padding: 5rem 2rem;
